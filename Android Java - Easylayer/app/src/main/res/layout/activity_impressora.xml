@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/white"
+    tools:context=".Impressora.Impressora">
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#84FF6F"
+        android:gravity="center"
+        android:text="@string/status"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=" Digite o texto"
+        android:background="@drawable/shape_list"
+        android:hint="  Digite o texto"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
+
+    <Button
+        android:id="@+id/btn_print_text"
+        android:onClick="print_text"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/azulGertec"
+        android:text="@string/imprimir"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_text" />
+
+    <Button
+        android:id="@+id/btn_print_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/azulGertec"
+        android:onClick="print_barcode"
+        android:text="@string/imprimir_barcode"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_print_html"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_print_html"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/azulGertec"
+        android:text="@string/imprimir_html"
+        android:onClick="print_html"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_print_imagem"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_print_imagem"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/azulGertec"
+        android:text="@string/imprimir_imagem"
+        android:onClick="print_imagem"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_print_text"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_print_tabelas"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/azulGertec"
+        android:text="@string/imprimir_tabelas"
+        android:onClick="print_tabelas"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_print_barcode" />
+
+   <Button
+        android:id="@+id/btn_print_xml"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/azulGertec"
+        android:onClick="print_xml"
+        android:text="@string/Imprimir_XML"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_print_tabelas" />
+
+    <Button
+        android:id="@+id/btn_print_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/azulGertec"
+        android:text="@string/soltar_papel"
+
+        android:onClick="scroll_paper"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_print_xml" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
