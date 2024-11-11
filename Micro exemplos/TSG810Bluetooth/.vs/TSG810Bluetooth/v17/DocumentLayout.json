@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81F719DC-AEA5-46AF-B608-EF08A10B7682}|TSG810Bluetooth.Android\\TSG810Bluetooth.Android.csproj|c:\\users\\davoliveira\\source\\repos\\tsg810bluetooth\\tsg810bluetooth.android\\androidbluetoothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F719DC-AEA5-46AF-B608-EF08A10B7682}|TSG810Bluetooth.Android\\TSG810Bluetooth.Android.csproj|solutionrelative:tsg810bluetooth.android\\androidbluetoothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B964D3-0DD0-40CE-923D-A1785021D758}|TSG810Bluetooth\\TSG810Bluetooth.csproj|c:\\users\\davoliveira\\source\\repos\\tsg810bluetooth\\tsg810bluetooth\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{42B964D3-0DD0-40CE-923D-A1785021D758}|TSG810Bluetooth\\TSG810Bluetooth.csproj|solutionrelative:tsg810bluetooth\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B964D3-0DD0-40CE-923D-A1785021D758}|TSG810Bluetooth\\TSG810Bluetooth.csproj|c:\\users\\davoliveira\\source\\repos\\tsg810bluetooth\\tsg810bluetooth\\printpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B964D3-0DD0-40CE-923D-A1785021D758}|TSG810Bluetooth\\TSG810Bluetooth.csproj|solutionrelative:tsg810bluetooth\\printpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AndroidBlueToothService.cs",
+              "DocumentMoniker": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\TSG810Bluetooth.Android\\AndroidBlueToothService.cs",
+              "RelativeDocumentMoniker": "TSG810Bluetooth.Android\\AndroidBlueToothService.cs",
+              "ToolTip": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\TSG810Bluetooth.Android\\AndroidBlueToothService.cs",
+              "RelativeToolTip": "TSG810Bluetooth.Android\\AndroidBlueToothService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwD0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:06:24.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\TSG810Bluetooth\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TSG810Bluetooth\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\TSG810Bluetooth\\MainPage.xaml",
+              "RelativeToolTip": "TSG810Bluetooth\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-22T19:07:38.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrintPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\TSG810Bluetooth\\PrintPageViewModel.cs",
+              "RelativeDocumentMoniker": "TSG810Bluetooth\\PrintPageViewModel.cs",
+              "ToolTip": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\TSG810Bluetooth\\PrintPageViewModel.cs",
+              "RelativeToolTip": "TSG810Bluetooth\\PrintPageViewModel.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowD0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:16:18.108Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

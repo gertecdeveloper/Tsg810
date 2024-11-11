@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSG810Bluetooth.Android", "TSG810Bluetooth.Android\TSG810Bluetooth.Android.csproj", "{81F719DC-AEA5-46AF-B608-EF08A10B7682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSG810Bluetooth", "TSG810Bluetooth\TSG810Bluetooth.csproj", "{42B964D3-0DD0-40CE-923D-A1785021D758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F719DC-AEA5-46AF-B608-EF08A10B7682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F719DC-AEA5-46AF-B608-EF08A10B7682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F719DC-AEA5-46AF-B608-EF08A10B7682}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{81F719DC-AEA5-46AF-B608-EF08A10B7682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F719DC-AEA5-46AF-B608-EF08A10B7682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F719DC-AEA5-46AF-B608-EF08A10B7682}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{42B964D3-0DD0-40CE-923D-A1785021D758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B964D3-0DD0-40CE-923D-A1785021D758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B964D3-0DD0-40CE-923D-A1785021D758}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{42B964D3-0DD0-40CE-923D-A1785021D758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B964D3-0DD0-40CE-923D-A1785021D758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B964D3-0DD0-40CE-923D-A1785021D758}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1587908-2453-4215-83D9-86BAD83A2148}
+	EndGlobalSection
+EndGlobal

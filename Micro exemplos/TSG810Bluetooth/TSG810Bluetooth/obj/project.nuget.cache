@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "lOce97cZNVZ06PBo+YHm1ieEH4gINJeag9xn+wi10hhgfSwNGi8UtbtZoPFgnjJWZm34/S0XYR0kAq5+k8KxtA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\davoliveira\\source\\repos\\TSG810Bluetooth\\TSG810Bluetooth\\TSG810Bluetooth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\davoliveira\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\davoliveira\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\davoliveira\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\davoliveira\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\davoliveira\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

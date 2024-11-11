@@ -1,0 +1,15 @@
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\bin\Debug\netstandard2.0\TSG810Bluetooth.deps.json
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\bin\Debug\netstandard2.0\TSG810Bluetooth.dll
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\bin\Debug\netstandard2.0\ref\TSG810Bluetooth.dll
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\bin\Debug\netstandard2.0\TSG810Bluetooth.pdb
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\TSG810Bluetooth.csproj.AssemblyReference.cache
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\TSG810Bluetooth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\TSG810Bluetooth.AssemblyInfoInputs.cache
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\TSG810Bluetooth.AssemblyInfo.cs
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\TSG810Bluetooth.csproj.CoreCompileInputs.cache
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\TSG810Bluetooth.dll
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\refint\TSG810Bluetooth.dll
+C:\Users\davoliveira\source\repos\TSG810Bluetooth\TSG810Bluetooth\obj\Debug\netstandard2.0\TSG810Bluetooth.pdb
