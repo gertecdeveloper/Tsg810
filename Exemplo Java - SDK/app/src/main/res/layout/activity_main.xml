@@ -1,29 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="8dp"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="147dp"
-        app:srcCompat="@drawable/gertec" />
+        android:id="@+id/imgLogo"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/gertec1" />
 
-    <TextView
-        android:id="@+id/txtNameProject"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/inforstatus"
+        android:layout_width="354dp"
+        android:layout_height="33dp"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/outfitbold"
+        android:gravity="center"
+        android:text="@string/informacoes"
+        android:textColor="@color/azul"
+        android:textSize="10sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/inforstatus"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/amarelo" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Android Studio"
-        android:textSize="24sp" />
+        android:layout_below="@id/inforstatus"
+        android:fillViewport="true">
 
-    <ListView
-        android:id="@+id/lvProjetos"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCamera"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/inforstatus"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/blue_bt"
+                android:drawableStart="@drawable/ic_camera"
+                android:fontFamily="@font/outfitbold"
+                android:text="Scanner"
+                android:textColor="@color/azul2"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnScanner"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/inforstatus"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blue_bt"
+                android:drawableStart="@drawable/ic_camera"
+                android:fontFamily="@font/outfitbold"
+                android:text="Scanner custumizado"
+                android:textColor="@color/azul2"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/btnImpressora"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/txtNameProject"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blue_bt"
+                android:drawableStart="@drawable/ic_print"
+                android:fontFamily="@font/outfitbold"
+                android:text="Impressão"
+                android:textColor="@color/azul2"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/btnMifare"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/btn1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blue_bt"
+                android:drawableStart="@drawable/ic_sensors"
+                android:fontFamily="@font/outfitbold"
+                android:text="Mifare"
+                android:textColor="@color/azul2"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/btGPS"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/txtNameProject"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blue_bt"
+                android:drawableStart="@drawable/ic_gpslocation"
+                android:fontFamily="@font/outfitbold"
+                android:text="GPS"
+                android:textColor="@color/azul2"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

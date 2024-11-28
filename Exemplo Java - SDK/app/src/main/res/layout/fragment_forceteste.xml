@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -11,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/message_write_read_tag"
+        android:text="@string/message_read_tag"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="24sp" />
 
@@ -22,7 +23,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:src="@drawable/ic_nfc"
-        android:tint="@color/colorAccent"/>
+        app:tint="@color/azul"
+        tools:ignore="UseAppTint" />
 
     <ProgressBar
         android:id="@+id/progress"
@@ -50,11 +52,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
+        android:textColor="@color/black"
         android:editable="false"
-        android:ems="10"
         android:enabled="false"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:textSize="12sp"/>
+        android:textSize="14sp"/>
 
 </LinearLayout>

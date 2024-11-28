@@ -3,49 +3,60 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-feature android:name="android.hardware.usb.host" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_OWNER_DATA"/>
-    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
     <uses-feature android:name="android.hardware.bluetooth" />
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
 
     <uses-permission android:name="android.permission.NFC" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/gertec_one"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:replace="android:icon,android:label"
-        >
-        <activity android:name=".MainActivity"
+        android:theme="@style/Theme.JavaSDK"
+        tools:targetApi="31">
+        <activity
+            android:name=".Camera.CodigoDeBarras2"
+            android:exported="false" />
+        <activity
+            android:name=".TEF.ExemploMSitef"
+            android:exported="false" />
+        <activity
+            android:name=".LeituraMifare.NfcExemplo"
+            android:exported="false" />
+        <activity
+            android:name=".Camera.CodigoDeBarras"
+            android:exported="false" />
+        <activity
+            android:name=".Impressora.Impressora"
+            android:exported="false" />
+        <activity
+            android:name=".GPS.GPS"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter"/>
         </activity>
-        <activity android:name=".ExemploCodigoBarras1.CodigoBarras1"/>
-        <activity android:name=".ExemploCodigoBarras2.CodigoBarras2"/>
-        <activity android:name=".ExemploImpressora.Impressora"/>
-        <activity android:name=".ExemploNFCIdRW.NfcExemplo"/>
-        <activity android:name=".ExemploSAT.SatPages.MenuSat"/>
-        <activity android:name=".ExemploSAT.SatPages.Teste"/>
-        <activity android:name=".ExemploSAT.SatPages.Rede"/>
-        <activity android:name=".ExemploSAT.SatPages.Ativacao"/>
-        <activity android:name=".ExemploSAT.SatPages.Associar"/>
-        <activity android:name=".ExemploSAT.SatPages.Ferramentas"/>
-        <activity android:name=".ExemploSAT.SatPages.Alterar"/>
     </application>
 
 </manifest>
