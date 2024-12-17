@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Lista das funções
         lvProjetos = findViewById(R.id.lvProjetos);
-        projetos.add(new Projeto("Código De Barras", R.drawable.qr_code));
+        projetos.add(new Projeto("Scanner via câmera", R.drawable.qr_code));
         projetos.add(new Projeto("Impressão", R.drawable.print));
         projetos.add(new Projeto("NFC Leitura", R.drawable.nfc2));
 

@@ -60,7 +60,7 @@
                 android:background="@drawable/blue_bt"
                 android:drawableStart="@drawable/ic_camera"
                 android:fontFamily="@font/outfitbold"
-                android:text="Scanner"
+                android:text="Scanner via câmera"
                 android:textColor="@color/azul2"
                 android:textSize="20sp" />
 
